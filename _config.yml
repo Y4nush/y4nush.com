@@ -13,36 +13,39 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Israel/Jerusalem
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Y4nush.com # main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: A doc site for my journy in cybersecuriy  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  this is A doc site for my journy in cybersecuriy.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://y4nush.com"
 
 github:
-  username: github_username # change to your github username
+  username: Y4nush # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+  # username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Yan Sandman
+  # email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/Y4nush # change to your github homepage
+    - https://medium.com/@yan_91176
+    - https://www.linkedin.com/in/yan-sandman-396537242/
+    - 
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -76,7 +79,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://cdn.discordapp.com/attachments/1061264350687547547/1157038757686554834/yansandman_Male_cyberpunkhacker_evil_criminal_dark_red_intense__b0307bed-e747-4cd6-906a-6b82d17fa21a_ins.jpg?ex=651727d0&is=6515d650&hm=7118dc7cd0c668d11434338967ee4c4086772e06e372b769fff9efd640413ed3&
 
 # boolean type, the global switch for TOC in posts.
 toc: true
