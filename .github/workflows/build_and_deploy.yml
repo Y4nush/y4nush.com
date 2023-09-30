@@ -27,12 +27,6 @@ jobs:
       env:
         JEKYLL_ENV: production
 
-    - name: Install AWS CLI
-      run: |
-        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-        unzip awscliv2.zip
-        sudo ./aws/install
-
     - name: "Deploy to AWS S3"
       run: |
         aws s3 sync ./_site/ s3://${{ secrets.AWS_S3_BUCKET_NAME }} \
