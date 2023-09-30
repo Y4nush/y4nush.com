@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    
+
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -29,6 +29,7 @@ jobs:
 
     - name: Deploy to AWS S3
       run: |
-          aws s3 sync --cache-control max-age=604800 --delete ./_site/ s3://${{ secrets.AWS_S3_BUCKET_NAME }} 
+        aws s3 sync ./_site/ s3://${{ secrets.AWS_S3_BUCKET_NAME }} --cache-control "max-age=604800" --delete
+
     - name: Create AWS Cloudfront Invalidation
       run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
