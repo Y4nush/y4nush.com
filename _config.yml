@@ -79,7 +79,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.discordapp.com/attachments/1061264350687547547/1157038757686554834/yansandman_Male_cyberpunkhacker_evil_criminal_dark_red_intense__b0307bed-e747-4cd6-906a-6b82d17fa21a_ins.jpg?ex=651727d0&is=6515d650&hm=7118dc7cd0c668d11434338967ee4c4086772e06e372b769fff9efd640413ed3&
+avatar: assets/img/avatar/avatar.jpeg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
