@@ -249,9 +249,9 @@ In recent years, security researchers have identified and published methods to d
  <a href="https://arkadiyt.com/2021/07/09/getting-partial-aws-account-ids-for-any-cloudfront-website/" target="_blank">Getting Partial AWS Account IDs for any CloudFront Website by Arkadiy Tetelman</a> - 2021
 
 <bv>In this blog post, we've explored both generic reconnaissance techniques, such as accidental disclosures in documentation, forum posts, and public repositories, as well as AWS-focused methods, including the discovery of account IDs through public resources like EBS snapshots, AMIs, and S3 buckets.
-hope you enjoyed!
+hope you enjoyed it!
 
-##### References:
+References:
 
 <ul>
   <li><a href="https://rhinosecuritylabs.com/aws/assume-worst-aws-assume-role-enumeration/" target="_blank">Assume the Worst: AWS Assume Role Enumeration</a></li>
