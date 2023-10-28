@@ -5,8 +5,6 @@ categories: [AWS Security, Reconnaissance]
 tags: [aws security, reconnaissance]
 image: /assets/img/posts/unauthenticated-reconnaissance-of-account-id/cover.png
 ---
-Full Disclosure: I aimed to publish this post on the evening of 7th October. However, that morning was marred by alarms due to missiles from Gaza, combined with a brutal terror attack committed by the terror organization Hamas, which claimed over 1400 innocent lives; My heart goes out to the victims and the brave souls defending civilians.<br> Our resolve strengthens in adversity. We shall prevail.
-
 ## Why
 Before diving deep into the methods of AWS account ID enumeration, it's crucial to understand the importance of this seemingly innocuous piece of information. 
 
