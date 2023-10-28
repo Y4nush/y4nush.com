@@ -23,7 +23,5 @@ Welcome to my digital canvas where I pen down my thoughts, compile my notes, and
 
 <!-- Your new gif at the end of the page -->
 <div style="text-align:center;">
-  <a href="insert-your-link-here" target="_blank">
-    <img width="500" src="/assets/img/logos/ezgif-1-5675809a46.gif" alt="GIF Logo">
-  </a>
+  <img width="500" src="/assets/img/logos/ezgif-1-5675809a46.gif" alt="Logo GIF">
 </div>
