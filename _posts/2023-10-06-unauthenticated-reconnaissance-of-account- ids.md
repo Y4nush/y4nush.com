@@ -251,7 +251,7 @@ In recent years, security researchers have identified and published methods to d
 <bv>In this blog post, we've explored both generic reconnaissance techniques, such as accidental disclosures in documentation, forum posts, and public repositories, as well as AWS-focused methods, including the discovery of account IDs through public resources like EBS snapshots, AMIs, and S3 buckets.
 hope you enjoyed it!
 
-References:
+<bv>References:
 
 <ul>
   <li><a href="https://rhinosecuritylabs.com/aws/assume-worst-aws-assume-role-enumeration/" target="_blank">Assume the Worst: AWS Assume Role Enumeration</a></li>
