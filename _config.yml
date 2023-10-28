@@ -20,10 +20,11 @@ timezone: Israel/Jerusalem
 
 title: Y4nush.com # main title
 
-tagline: A doc site for my journy in cybersecuriy  # it will display as the sub-title
+tagline: Incident Responder | Security Consultant | OSCP | Muay Thai practitioner   # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  this is A doc site for my journy in cybersecuriy.
+  A cyber Security Blog. Offensive Security, AWS Security.
+
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://y4nush.com"
@@ -69,7 +70,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: dark
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
