@@ -1,5 +1,5 @@
 ---
-title: Unauthenticated reconnaissance of account IDs
+title: Unauthenticated reconnaissance of AWS account IDs
 date: 2023-10-06 18:39:00 +0300
 categories: [AWS Security, Reconnaissance]
 tags: [aws security, reconnaissance]
