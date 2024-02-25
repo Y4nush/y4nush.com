@@ -4,7 +4,7 @@ icon: fa-solid fa-hashtag
 order: 5
 ---
 
-Hello, I'm Yan Sandman, an Incident Responder & Security Consultant at [Tetrisponse](https://tetrisponse.io){:target="_blank"}. After working hours, you can find me delving into Offensive Security, exploring both attack and defense strategies in AWS, and engaging in Capture The Flag (CTF) challenges. When I'm away from my keyboard, I'm likely at my local Muay Thai gym, training hard.
+Hello, I'm Yan Sandman, a Security Engineer at Go Global Travel, a Yanolja Cloud company.<br> Previously, I spent two years as an Incident Responder & Security Consultant at Tetrisponse. After work, I immerse myself in Offensive Security, exploring attack and defense strategies in AWS, and participating in Capture The Flag (CTF) challenges. When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gym.
 
 ## About This Blog
 
