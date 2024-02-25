@@ -1,8 +1,8 @@
 ---
 title: Deploying CAPEv2 on AWS - A Comprehensive Guide
 date: 2024-02-25 16:39:00 +0300
-categories: [AWS Security, Reconnaissance]
-tags: [aws security, reconnaissance]
+categories: [Malware Analysis, Incident Response]
+tags: [malware analysis, incident response]
 image: /assets/img/posts/installation-of-capev2-sandbox-on-aws/cover.png
 ---
 ## Introduction
