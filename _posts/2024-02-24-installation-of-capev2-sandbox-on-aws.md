@@ -777,10 +777,6 @@ sudo nano conf/aws.conf
 - Change subnet id to the subnet id of your CAPE host > `subnet_id`
 - Change security group to the guest security group > `security_groups`
 - Replace `#interface`  with `interface = eth0`
-- Uncomment `#options =`
-- Uncomment `#tags =` and add `tags = none`
-- Uncomment `# resultserver_ip =` and add your server ip
-- Uncomment `#resultserver_port = 2042`
 - Delete everything after `arch = x64`
 
 **Restart the cape service**
