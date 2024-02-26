@@ -315,7 +315,7 @@ aws ec2 describe-import-image-tasks --import-task-ids "TASK ID"
 
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image35.png){: width="700" height="400" }
 
-**Create the first security group:**<br> CAPEv2Host. The rules should allow inbound SSH and web access on port 8000 from your own IP.<br> Leave the outbound rules as default.
+**Create the first security group** CAPEv2Host <br> The rules should allow inbound SSH and web access on port 8000 from your own IP.<br> Leave the outbound rules as default.
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image4.png){: width="700" height="400" }
 
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image27.png){: width="700" height="400" }
