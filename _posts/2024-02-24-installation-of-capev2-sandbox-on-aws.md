@@ -34,6 +34,8 @@ They introduced a project that utilized AWS for deploying the Cuckoo system, pro
 
 In 2022, the CAPE community seized the opportunity to enhance their project's capabilities by integrating the AWS deployment option. The CAPE project, building upon the foundation laid by Checkpoint's initiative, introduced modifications that enabled the utilization of Amazon EC2 instances as guest machines. This offered an alternative of the traditional use of KVM or other virtualization methods, as AWS does not support nested virtualization unless a costly bare metal server is employed.
 
+### How it works?
+CAPE operates with a host responsible for managing analysis machinery where malware executes and an Amazon Machine Image (AMI) that requires building. Upon malware submission, the CAPE host initiates an AMI instance, conducts analysis, and retrieves results through an HTTP agent installed on the AMI. This process enables comprehensive behavioral analysis reports on the malware.
 
 > Acknowledgment: It is worth mentioning that although CAPEv2 is highly maintained, the AWS module, being a community module, is not maintained by the core developers.<br> During my installation, I encountered errors that were resolved thanks to plutusrt. He provided assistance with the live error, identified the bug, and addressed it. More details can be found <a href="https://github.com/kevoreilly/CAPEv2/pull/1980/" target="_blank">here. </a>
 {: .prompt-tip }
