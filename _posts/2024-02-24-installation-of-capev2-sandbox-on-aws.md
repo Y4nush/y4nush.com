@@ -1,8 +1,8 @@
 ---
 title: Deploying CAPEv2 on AWS - A Comprehensive Guide
 date: 2024-02-25 16:39:00 +0300
-categories: [Malware Analysis, Incident Response]
-tags: [malware analysis, incident response]
+categories: [Malware Analysis, CAPEv2, Cuckoo]
+tags: [malware analysis, capev2, cuckoo]
 image: /assets/img/posts/installation-of-capev2-sandbox-on-aws/cover.png
 ---
 ## Introduction
