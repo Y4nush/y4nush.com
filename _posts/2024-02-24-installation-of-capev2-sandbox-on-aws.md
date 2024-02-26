@@ -210,7 +210,7 @@ Find and install Microsoft Office 2010 Pro Plus with SP2 September 2020 (x86).
 
 The guest is now ready, let's export and upload it to AWS.
 
-## Configuring S3 Bucket, VM import roles, AWS-CLI, and converting the VMDK to AMI:
+### Configuring S3 Bucket, VM import roles, AWS-CLI, and converting the VMDK to AMI:
 
 1\.**Importing the VMDK to AWS**
 On vmware export by using the export to OVF option this will create and OVF and A VMDK files on a desired locations
@@ -286,7 +286,7 @@ To check the status of the machine, use the ImportTaskId value from the JSON.
 aws ec2 describe-import-image-tasks --import-task-ids "TASK ID"
 ```
 
-## Setting and Configuring VPC:
+### Setting and Configuring VPC:
 
 1\.**Using the AWS console, search for VPC:**
 
@@ -321,7 +321,7 @@ aws ec2 describe-import-image-tasks --import-task-ids "TASK ID"
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image27.png){: width="700" height="400" }
 
 
-## Installing and Configuring CAPEv2 Host:
+### Installing and Configuring CAPEv2 Host:
 
 1\.**Create a Ubuntu Server 22.04 using EC2 with the following specifications:**
 - AMI: ami-0905a3c97561e0b69 (64-bit (x86)) / ami-0a1b36900d715a3ad (64-bit (Arm))
@@ -794,7 +794,7 @@ If everything was installed and configured successfully, you should be able to s
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/photo_5_2024-02-25_20-10-48.jpg){: width="700" height="400" }
 
 
-## Demo Time!
+### Demo Time!
 
 For this demo, I have created a basic Msfvenom executable reverse shell and uploaded it to CAPE for analysis.
 
