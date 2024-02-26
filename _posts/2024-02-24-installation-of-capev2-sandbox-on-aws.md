@@ -761,8 +761,8 @@ sudo -u cape poetry run pip3 install boto3
 sudo nano conf/aws.conf
 ```
 - **Change the following:**
--- Add region name  > `region_name =`
--- Add availability zone >  `availability_zone =`
+- Add region name  > `region_name =`
+- Add availability zone >  `availability_zone =`
 
 > Warning: When it comes to writing access keys to the EC2 instance, it's important to note that this is considered a bad practice. However, currently, there is no other solution. Keep in mind to monitor the CAPE user's actions. This is also the reason the CAPE user is allowed to perform actions only on the specific VPC and doesn’t have full EC2 access.
 {: .prompt-danger }
