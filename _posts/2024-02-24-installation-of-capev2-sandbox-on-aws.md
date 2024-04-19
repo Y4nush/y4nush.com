@@ -664,41 +664,39 @@ mongo = no
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image45.png){: width="700" height="400" }
 
 - Choose Json and paste the following policy
-- Replace the values of the VPC with the VPC you created and the value of the AMI with the AMI ID you created.
+- Replace the values with your own resources.
 
 ```json
 {
-	"Version": "2012-10-17",
-	"Statement": [
-		{
-			"Effect": "Allow",
-			"Action": [
-				"ec2:DescribeInstances",
-				"ec2:ModifyInstanceAttribute",
-				"ec2:RunInstances",
-				"ec2:TerminateInstances",
-				"ec2:CreateTags"
-			],
-			"Resource": "*",
-			"Condition": {
-				"StringEquals": {
-					"ec2:Region": "eu-west-1"
-				}
-			}
-		},
-		{
-			"Effect": "Allow",
-			"Action": "ec2:RunInstances",
-			"Resource": "*",
-			"Condition": {
-				"StringEquals": {
-					"ec2:Region": "eu-west-1",
-					"ec2:Vpc": "<Replace with your VPC>",
-					"ec2:ImageId": "<Replace with your AMI>>"
-				}
-			}
-		}
-	]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:RunInstances",
+                "ec2:ModifyInstanceAttribute",
+                "ec2:TerminateInstances",
+                "ec2:StopInstances",
+                "ec2:CreateTags",
+                "ec2:StartInstances"
+            ],
+            "Resource": [
+                "arn:aws:ec2:<YOUR REGION>::image/<YOUR AMI ID>",
+                "arn:aws:ec2:<YOUR REGION>:<YOUR ACCOUNT ID>:network-interface/*",
+                "arn:aws:ec2:<YOUR REGION>:<YOUR ACCOUNT ID>:security-group/<YOUR CAPEv2 GUEST SECURITY GROUP ID>",
+                "arn:aws:ec2:<YOUR REGION>:<YOUR ACCOUNT ID>:instance/*",
+                "arn:aws:ec2:<YOUR REGION>:<YOUR ACCOUNT ID>:subnet/<SUBNET ID>",
+                "arn:aws:ec2:<YOUR REGION>:<YOUR ACCOUNT ID>:volume/*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:Describe*"
+            ],
+            "Resource": "*"
+        }
+    ]
 }
 ```
 
