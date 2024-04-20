@@ -653,16 +653,7 @@ analysis_days = 5
 # Delete mongo data
 mongo = no
 ```
-3\. **Create a IAM user for CAPE**
-
-![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image3.png){: width="700" height="400" }
-
-![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image12.png){: width="700" height="400" }
-
-4\.**4. Choose Attach policies directly and Create a policy**
-
-![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image45.png){: width="700" height="400" }
-
+3\.**Create an IAM policy**
 - Choose Json and paste the following policy
 - Replace the values with your own resources.
 
@@ -718,20 +709,15 @@ mongo = no
 
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image30.png){: width="700" height="400" }
 
-**Create user**
+**Create an IAM role for the CAPEv2 EC2 instance**
 
-![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image29.png){: width="700" height="400" }
+![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/role1.png){: width="700" height="400" }
+![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/role2.png){: width="700" height="400" }
+![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/role3.png){: width="700" height="400" }
 
-5\.**Navigate to the newly created user and click on "Create access key."**
-
-![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image32.png){: width="700" height="400" }
-
-**Choose CLI  and hit next**
-
-![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image42.png){: width="700" height="400" }
-
-**Copy the access and secret key, write it down, but don't save it.**
-
+**Attach the role to the CAPEv2 host EC2 instance**
+![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/role4.png){: width="700" height="400" }
+![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/role5.png){: width="700" height="400" }
 
 6\.**Create a security group for the CAPE guest**
 The group should never allow any access to the internet. One disadvantage in AWS is that according to AWS policy when configuring a sandbox, the machines are not allowed to have internet access, even through a proxy.
@@ -764,8 +750,7 @@ sudo nano conf/aws.conf
 - Add region name  > `region_name =`
 - Add availability zone >  `availability_zone =`
 
-> Warning: When it comes to writing access keys to the EC2 instance, it's important to note that this is considered a bad practice. However, currently, there is no other solution. Keep in mind to monitor the CAPE user's actions. This is also the reason the CAPE user is allowed to perform actions only on the specific VPC and doesn’t have full EC2 access.
-{: .prompt-danger }
+> Warning: Writing access keys directly to the EC2 instance is considered a bad practice. Alternatively, attach the IAM role directly to the EC2 instance and leave the aws_access_key_id and aws_secret_access_key variables blank.
 
 - Add AWS access key id > `aws_access_key_id =`
 - Add AWS secret access key >  `aws_secret_access_key = `
