@@ -653,7 +653,7 @@ analysis_days = 5
 # Delete mongo data
 mongo = no
 ```
-3\.**Create an IAM policy**
+3\.**Create an IAM policy and role**
 - Choose Json and paste the following policy
 - Replace the values with your own resources.
 
@@ -705,9 +705,6 @@ mongo = no
 
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image18.png){: width="700" height="400" }
 
-**Refresh the previous page and attach the policy**
-
-![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image30.png){: width="700" height="400" }
 
 **Create an IAM role for the CAPEv2 EC2 instance**
 
@@ -719,18 +716,18 @@ mongo = no
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/role4.png){: width="700" height="400" }
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/role5.png){: width="700" height="400" }
 
-6\.**Create a security group for the CAPE guest**
+4\.**Create a security group for the CAPE guest**
 The group should never allow any access to the internet. One disadvantage in AWS is that according to AWS policy when configuring a sandbox, the machines are not allowed to have internet access, even through a proxy.
 
 The outbound rules should allow access only to the CAPEv2Host security group. The inbound rules should allow all traffic from the CAPEv2Host security group and RDP access from your own IP (for debugging purposes).
 
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image17.png){: width="700" height="400" }
 
-7\.**Get back to the CAPEhost security group and allow all TCP traffic from the newly created guest security group.**
+5\.**Get back to the CAPEhost security group and allow all TCP traffic from the newly created guest security group.**
 
 ![Desktop View](/assets/img/posts/installation-of-capev2-sandbox-on-aws/image23.png){: width="700" height="400" }
 
-8\.**Reconnect to the Cape Host Ubuntu server**
+6\.**Reconnect to the Cape Host Ubuntu server**
 
 - **install boto3**
 
