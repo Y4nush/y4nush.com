@@ -747,7 +747,8 @@ sudo nano conf/aws.conf
 - Add region name  > `region_name =`
 - Add availability zone >  `availability_zone =`
 
-> Warning: Writing access keys directly to the EC2 instance is considered a bad practice. Alternatively, attach the IAM role directly to the EC2 instance and leave the aws_access_key_id and aws_secret_access_key variables blank.
+> Warning: Warning: Writing access keys directly to the EC2 instance is considered a bad practice. Alternatively, attach the IAM role directly to the EC2 instance and leave the aws_access_key_id and aws_secret_access_key variables blank.
+{: .prompt-danger }
 
 - Add AWS access key id > `aws_access_key_id =`
 - Add AWS secret access key >  `aws_secret_access_key = `
