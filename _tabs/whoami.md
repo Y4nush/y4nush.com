@@ -11,7 +11,7 @@ Lately, I have gained an interest in Windows Development, and that is what I'm d
 
 ## About This Blog
 
-Welcome to my digital canvas where I pen down my thoughts, compile my notes, and showcase my projects. This space is also a treasure trove of all the fascinating and delightful discoveries I make in the world of cybersecurity. So, dive in, explore, and enjoy the journey with me!
+This blog is about sharing cool stuff that I'm researching, developing, or learning. It is mostly about offensive security, but it could cover different topics as well.
 
 ## Certifications
 
