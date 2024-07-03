@@ -4,10 +4,6 @@ icon: fa-solid fa-hashtag
 order: 5
 ---
 
-Hello, I'm Yan Sandman, a Security Engineer at Go Global Travel, a Yanolja Cloud company.<br> Previously, I spent two years as an Incident Responder & Security Consultant at Tetrisponse. 
-
-When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gym.
-
 Hello, I'm Yan Sandman, a Security Engineer at Go Global Travel, a Yanolja Cloud company.<br>Previously, I worked as an Incident Responder and Security Consultant.<br>
 Lately, I have gained an interest in Windows Development, and that is what I'm doing most of the time.<br> When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gym.
 
