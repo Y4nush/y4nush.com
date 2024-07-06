@@ -4,14 +4,19 @@ icon: fa-solid fa-hashtag
 order: 5
 ---
 
-Hello, I'm Yan Sandman, a Security Engineer at Go Global Travel, a Yanolja Cloud company.<br>Previously, I worked as an Incident Responder and Security Consultant.<br>
-Lately, I have gained an interest in Windows Development, and that is what I'm doing most of the time.<br> When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gym.
-
-
 
 ## About This Blog
+This blog is where I share the cool things that I'm learning, researching, and developing. It is mostly about offensive security, but it can cover other topics as well.
 
-Welcome to my digital canvas where I pen down my thoughts, compile my notes, and showcase my projects. This space is also a treasure trove of all the fascinating and delightful discoveries I make in the world of cybersecurity. So, dive in, explore, and enjoy the journey with me!
+```bash
+# whoami
+```
+```
+Hello, I'm Yan Sandman, a Security Engineer at Go Global Travel, a Yanolja Cloud company.
+Previously, I worked as an Incident Responder and Security Consultant.
+Nowadays, I am mostly interested in Windows development and web application security, which is what I spend most of my time doing.
+When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gym.
+```
 
 ## Certifications
 
