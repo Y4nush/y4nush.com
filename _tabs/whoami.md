@@ -6,7 +6,8 @@ order: 5
 
 
 ## About This Blog
-This blog is where I share the cool things that I'm learning, researching, and developing. It is mostly about offensive security, but it can cover other topics as well.
+This blog is where I share the cool things that I'm learning, researching, and developing.<br>
+It is mostly about offensive security, but it can cover other topics as well.
 
 ```bash
 # whoami
