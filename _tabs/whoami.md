@@ -14,7 +14,8 @@ This blog is where I share the cool things that I'm learning, researching, and d
 ```
 Hello, I'm Yan Sandman, a Security Engineer at Go Global Travel, a Yanolja Cloud company.
 Previously, I worked as an Incident Responder and Security Consultant.
-Nowadays, I am mostly interested in Windows development and web application security, which is what I spend most of my time doing.
+Nowadays, I am mostly interested in Windows development and web application security,
+which is what I spend most of my time doing.
 When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gym.
 ```
 
