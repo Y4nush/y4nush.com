@@ -22,12 +22,12 @@ When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gy
 
 ## Certifications
 
-<div style="display: inline-block; text-align: center;">
-  <a href="https://www.credential.net/b5f685ea-9adb-4c0e-a1e8-cf4b0e692483#gs.5rpk66" target="_blank">
-    <img width="120" height="120" src="/assets/img/logos/oscp.png" alt="OSCP Certification Logo" style="margin-right: 20px;">
+<div style="text-align: center; margin-bottom: 40px;">
+  <a href="https://www.credential.net/b5f685ea-9adb-4c0e-a1e8-cf4b0e692483#gs.5rpk66" target="_blank" style="margin-right: 20px;">
+    <img width="120" height="120" src="/assets/img/logos/oscp.png" alt="OSCP Certification Logo">
   </a>
   <a href="https://www.linkedin.com/in/yan-sandman-396537242/details/certifications/1720623337790/single-media-viewer?type=DOCUMENT&profileId=ACoAADw8QGIB_TJKJ3Cd_n_ZPX2jfcK-yMbT5_o&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B9r%2FlQdMnRV%2B2dfU%2F2mM7yg%3D%3D" target="_blank">
-    <img width="120" height="120" src="/assets/img/logos/trainsec-main-logo-icon.svg" alt="TrainSec Certification Logo">
+    <img width="100" height="100" src="/assets/img/logos/trainsec-main-logo-icon.svg" alt="TrainSec Certification Logo">
   </a>
 </div>
 
