@@ -23,9 +23,7 @@ When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gy
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
     <img width="120" height="120" src="/assets/img/logos/oscp.png" alt="OSCP Certification Logo">
-  </a>
     <img width="100" height="100" src="/assets/img/logos/trainsec-main-logo-icon.svg" alt="TrainSec Certification Logo">
-  </a>
 </div>
 
 
