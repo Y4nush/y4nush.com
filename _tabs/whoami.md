@@ -19,16 +19,17 @@ Nowadays, I am mostly interested in Windows development and web application secu
 which is what I spend most of my time doing.
 When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gym.
 ```
-
 ## Certifications
-<div style="float:left;">
-  <a href="https://www.credential.net/b5f685ea-9adb-4c0e-a1e8-cf4b0e692483#gs.5rpk66" target="_blank">
-    <img width="100" src="/assets/img/logos/oscp.png" alt="OSCP Certification Logo">
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-bottom: 40px;">
+  <a href="https://example.com/oscp">
+    <img width="120" height="120" src="/assets/img/logos/oscp.png" alt="OSCP Certification Logo">
+  </a>
+  <a href="https://example.com/trainsec">
+    <img width="100" height="100" src="/assets/img/logos/trainsec-main-logo-icon.svg" alt="TrainSec Certification Logo">
   </a>
 </div>
-<!-- Clear float -->
-<div style="clear:both;"></div>
-<!-- Your new gif at the end of the page -->
-<div style="text-align:center;">
+
+<div style="text-align:center; margin-top: 40px;">
   <img width="500" src="/assets/img/logos/ezgif-1-5675809a46.gif" alt="Logo GIF">
 </div>
