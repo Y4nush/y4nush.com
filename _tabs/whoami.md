@@ -21,14 +21,13 @@ When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gy
 ```
 ## Certifications
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-bottom: 40px;">
-  <a href="https://example.com/oscp">
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
     <img width="120" height="120" src="/assets/img/logos/oscp.png" alt="OSCP Certification Logo">
   </a>
-  <a href="https://example.com/trainsec">
     <img width="100" height="100" src="/assets/img/logos/trainsec-main-logo-icon.svg" alt="TrainSec Certification Logo">
   </a>
 </div>
+
 
 <div style="text-align:center; margin-top: 40px;">
   <img width="500" src="/assets/img/logos/ezgif-1-5675809a46.gif" alt="Logo GIF">
