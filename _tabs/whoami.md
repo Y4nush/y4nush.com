@@ -19,13 +19,6 @@ Nowadays, I am mostly interested in Windows development and web application secu
 which is what I spend most of my time doing.
 When I'm not behind a keyboard, you'll probably find me at my local Muay Thai gym.
 ```
-## Certifications
-
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
-    <img width="120" height="120" src="/assets/img/logos/oscp.png" alt="OSCP Certification Logo">
-    <img width="100" height="100" src="/assets/img/logos/trainsec-main-logo-icon.svg" alt="TrainSec Certification Logo">
-</div>
-
 
 <div style="text-align:center; margin-top: 40px;">
   <img width="500" src="/assets/img/logos/ezgif-1-5675809a46.gif" alt="Logo GIF">
