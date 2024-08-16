@@ -20,10 +20,10 @@ timezone: Israel/Jerusalem
 
 title: Y4nush.com # main title
 
-tagline: Security Engineer | Incident Responder | OSCP | Muay Thai practitioner   # it will display as the sub-title
+tagline: Security Engineer | Incident Responder | Muay Thai practitioner   # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A cyber Security Blog. Offensive Security, AWS Security.
+  A cyber Security Blog. Offensive Security, Y4nush.
 
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
@@ -45,7 +45,7 @@ social:
     # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/Y4nush # change to your github homepage
     - https://medium.com/@yan_91176
-    - https://www.linkedin.com/in/yan-sandman-396537242/
+    - https://www.linkedin.com/in/yan-sandman/
     - 
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
