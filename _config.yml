@@ -32,8 +32,8 @@ url: "https://y4nush.com"
 github:
   username: Y4nush # change to your github username
 
-# twitter:
-  # username: twitter_username # change to your twitter username
+twitter:
+  username: Y4nu_sh # change to your twitter username
 
 social:
   # Change to your full name.
@@ -46,7 +46,7 @@ social:
     - https://github.com/Y4nush # change to your github homepage
     - https://medium.com/@yan_91176
     - https://www.linkedin.com/in/yan-sandman/
-    - 
+    - https://x.com/Y4nu_sh
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

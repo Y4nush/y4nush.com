@@ -26,3 +26,7 @@
 - type: medium
   icon: 'fa-brands fa-medium'
   url:  'https://medium.com/@yan_91176'                 
+
+- type: x
+  icon: "fa-brands fa-x-twitter"
+  url: "https://x.com/Y4nu_sh"
